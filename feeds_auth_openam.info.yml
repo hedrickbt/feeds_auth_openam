@@ -1,0 +1,9 @@
+name: 'Feeds OpenAM Authentication'
+type: module
+description: 'Feeds OpenAM Authentication Module'
+core: 8.x
+package: Feeds
+dependencies:
+  - feeds
+  - key
+version: '8.x-1.x-dev'

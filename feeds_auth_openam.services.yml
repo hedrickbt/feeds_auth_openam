@@ -1,0 +1,5 @@
+services:
+  feeds_auth.import_subscriber:
+    class: Drupal\feeds_auth_openam\EventSubscriber\LazySubscriber
+    tags:
+      - { name: event_subscriber }

@@ -1,0 +1,14 @@
+{
+  "name": "drupal/feeds_auth_openam",
+  "type": "drupal-module",
+  "description": "Feeds OpenAM Authentication Module",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/feeds_auth_openam",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "http://drupal.org/project/issues/feeds_auth_openam",
+    "source": "http://cgit.drupalcode.org/feeds_auth_openam"
+  },
+  "require": { }
+}

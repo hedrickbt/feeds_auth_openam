@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains feeds_auth.module..
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function feeds_auth_help($route_name, RouteMatchInterface $route_match) {
+    switch ($route_name) {
+        // Main module help for the feeds_auth module.
+        case 'help.page.feeds_auth':
+            $output = '';
+            $output .= '<h3>' . t('About') . '</h3>';
+            $output .= '<p>' . t('Feeds OpenAM Authentication Module') . '</p>';
+            return $output;
+
+        default:
+    }
+}
